@@ -4,11 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="./Js/app" defer></script>
     <link rel="stylesheet" href="./style.css" />
+    <title>My Calculator</title>
   </head>
   <body>
-    <h1>this is my calculator</h1>
+    <div class="container">
+      <div class="display"></div>
+      <div class="actions">
+        <div class="numbers">
+          <button class="num-1" data-type="operand" value="1">1</button>
+          <button class="num-2" data-type="operand" value="2">2</button>
+          <button class="num-3" data-type="operand" value="3">3</button>
+          <button class="num-4" data-type="operand" value="4">4</button>
+          <button class="num-5" data-type="operand" value="5">5</button>
+          <button class="num-6" data-type="operand" value="6">6</button>
+          <button class="num-7" data-type="operand" value="7">7</button>
+          <button class="num-8" data-type="operand" value="8">8</button>
+          <button class="num-9" data-type="operand" value="9">9</button>
+          <button class="num-0" data-type="operand" value="0">0</button>
+          <button class="num-ac" data-type="operator">AC</button>
+          <button class="num-comma" data-type="operator">,</button>
+        </div>
+        <div class="operators">
+          <button class="division" value="/">➗</button>
+          <button class="subtract" value="-">➖</button>
+          <button class="addition" value="+">➕</button>
+          <button class="equals" value="#">✖️</button>
+          <button class="equals" value="=">=</button>
+        </div>
+      </div>
+    </div>
   </body>
-  <script></script>
+  <script src="./new.js"></script>
 </html>
